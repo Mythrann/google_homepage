@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 200px;
+}
+
+body p a:visited {
+    color: blue;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+input {
+    border-radius : 24px;
+    width: 580px;
+    height: 44px;
+    border: 1px solid #dfe1e5
+}
+
+input:focus {
+    outline:none;
+}
+
+input:hover {
+    
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+ul {
+    position : fixed;
+    list-style-type : none;
+    top : 0px;
+    right: 0;
+    display: flex;
+    padding: 10px 4px;
+}
+
+ul a {
+    padding: 14px 16px;
+    font-family: Arial;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+button {
+    display: inline;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+p {
+    color: #3c4043;
+    display: inline-block;
+    line-height: 28px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+footer {
+    width: 100%;
+    position : fixed;
+    bottom : 0px;
+    left : 0px;
+    display : flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+#top {
+    padding: 10px 40px;
+    left: 0%;
+    border-bottom: 1px solid #dadce0;
+}
+
+#top p {
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    text-decoration: none;
+}
+
+#bottom {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    padding: 0px 20px;
+}
+
+#bottom div {
+    display : flex;
+    flex-direction : row;
+}
+
+#bottom div a {
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    text-decoration: none;
+} 
+
+#bottom div a:hover, a:hover {
+    color: blue;
+    text-decoration: underline;
+}
